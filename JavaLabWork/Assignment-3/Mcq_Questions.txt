@@ -1,0 +1,49 @@
+Q.1)
+
+d) Compile Time Error
+
+The access modifier of x is private so it can be accessible only within the class where it is being Declared. 
+The access modifier of y is protected so it can be accessible only within the same package or in different package who inherits the class of y.
+The z is an instance variable which is accessible only within the class.
+
+So it will give the erroe when we try to accesss these variables through test class.
+
+
+Q.2)
+
+b) 1 2 3
+
+class A
+{
+	void dis1() {
+		System.out.println(1);
+	}
+}
+class B extends A
+{
+	void dis2() {
+		System.out.println(2);
+	}
+}
+class C extends B
+{
+	void dis3() {
+		System.out.println(3);
+	}
+}
+public class Main {
+	public static void main(String args[])
+	{
+		C c1 = new C();
+		C1.dis1();
+		C1.dis2();
+		C1.dis3();
+	}
+}
+
+
+Q.3)
+
+c) Compile time error
+
+As java does not support the multiple inheritence.
