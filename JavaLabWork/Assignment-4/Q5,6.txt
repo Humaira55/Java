@@ -1,0 +1,10 @@
+Q.5)   Compile Time Error
+
+Because the scope of Y is within a loop.
+
+Q.6)   32
+
+No Error
+
+
+
