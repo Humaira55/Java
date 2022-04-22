@@ -1,0 +1,14 @@
+Q.5)   Compile Time Error
+
+Because the scope of Y is within a loop.
+
+Q.6)   32
+
+g=3
+=++g*8
+=4*8
+=32
+
+
+
+
