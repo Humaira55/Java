@@ -1,0 +1,36 @@
+Difference between string and StringBuilder :
+
+
+1)  The object of String is stored in string pool while object of StringBuilder stores in Heap Memory.
+
+2)  String is immutable in java while StringBuilder is mutable in java.
+
+3)  We can use equals method for comparing two strings in java while in StringBuilder we can't use equals method to compare two StringBuilder objects.
+	eg: 
+	public class check
+	{
+		public static void main(String[] args)
+		{
+			String s1 = "TATA";
+			String s2 = "TATA";
+
+			System.out.println(s1.equals(s2));
+
+			StringBuilder sb1 = new StringBuilder("TATA");
+			StringBuilder sb2 = new StringBuilder("TATA");
+
+			System.out.println(sb1.equals(sb2));
+		}
+	}
+
+	Output : true
+		 false
+
+4)  We can create string object without using new keyword which is not possible with a StringBuilder.
+	eg:
+	String s1 = "Java";
+	StringBuilder sb1 = new StringBuilder("Java");
+
+5)  StringBuilder is consumes less memory than a string while performing concatination. This is because string is immutable in java and concatination of two string objects involve creating a new object.
+
+		
