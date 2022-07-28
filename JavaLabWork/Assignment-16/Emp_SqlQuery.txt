@@ -1,0 +1,38 @@
+
+Q.1)
+
+	The Table is : 
+
+	ID    FName	LName	Department
+	101   Humaira	Shaikh	IT
+	102   Shifa	Shaikh  HR
+	103   Iram	Shah	Finance
+	104   Seema	Khan	Accounts
+	105   Meema	Kaur	HR
+
+	Query : SELECT Department, COUNT(*) FROM employee WHERE Department = 'HR';
+
+	Output :
+
+	Department	COUNT
+	HR		2
+
+Q.2)
+
+	The Table is : 
+
+	ID    FName	LName	Department
+	101   Humaira	Shaikh	IT
+	102   Shifa	Shaikh  HR
+	103   Iram	Shah	Finance
+	104   Seema	Khan	Accounts
+	105   Meema	Kaur	HR
+
+	Query : SELECT * FROM employee WHERE FName LIKE 'S%';
+
+	Output :
+
+	ID    FName	LName	Department
+	102   Shifa	Shaikh  HR
+	104   Seema	Khan	Accounts
+
