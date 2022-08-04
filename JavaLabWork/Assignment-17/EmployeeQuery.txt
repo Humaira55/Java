@@ -1,0 +1,23 @@
+Q.1)
+
+	Query :
+	
+	select FullName, Salary from emp.employeDetails, emp.employeeSalary where employeDetails.EmpId = employeeSalary.EmpId AND Salary>=5000 AND Salary<=10000;
+	
+	Output :
+	
+	FullName	Salary
+	Humaira		9000
+	Shifa		5000
+
+Q.2)
+	
+	Query : 
+
+	select * from employeeDetails where FullName like '__hn%';
+
+	Output :
+
+	EmpId	  FullName	ManagerId     DateOfJoining	City
+	105	  John		3	      2020-12-21	Mumbai
+	
